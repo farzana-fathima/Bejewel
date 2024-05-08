@@ -1,0 +1,341 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Space+Grotesk:wght@300..700&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins';
+}
+.container{
+    width: 100%;
+    background-color:rgb(248, 240, 240) ;
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+.logo>img{
+    height:160px;
+    width:160px;
+    margin-left: 200px;
+}
+.nav-bar{
+    color: rgb(0, 0, 0);
+    padding: 25px;
+    align-items: center;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+.nav-bar{
+    margin-right: 200px;
+}
+.nav-bar>li>a{
+    text-decoration: none;
+    color: black;
+    padding-right: 40px;
+}
+.hero-section{
+    background-image: url(images/top-view-engagement-rings-with-copy-space.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    text-align: center;
+    position: relative;
+}
+.headline{
+    font-weight: 400;
+    font-size: 57px;
+    line-height: 64px;
+    letter-spacing: -.25%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% -50%);
+}
+.elevated-button{
+    height: 40px;
+    width: 124px;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    padding: 10px 24px 10px 24px;
+    background-color: #F7F2FA;
+    color: #6750A4; 
+    margin-top: 34px;
+    position: absolute;
+    top: 55%;
+    left: 65%;
+    transform: translate(-50% -50%)
+    }
+
+    /* about-section */
+
+.about-headline{
+    display: flex;
+    justify-content: center;
+    margin-top: 120px;
+}
+.about-us{
+    display: flex;
+}
+.about-image{
+    margin-right: 200px;
+    margin-top: 42px;
+}
+.about-section{
+    margin-top: 72px;
+    margin-left: 200px;
+    font-size: 16px;
+    position: relative;
+}
+.read-button{
+    text-decoration: none;
+    top: 50%;
+    position: absolute;
+}
+
+/* first-card-section */
+
+.cards{
+    background-color: rgb(216, 224, 224);
+    height: 903px;
+    position: relative;
+    margin-top: 120px;
+}
+.card-heading {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 120px;
+    left: 650px;
+}
+.card-container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 25px;
+    position: absolute;
+    top: 10%;
+    left: 250px;
+    margin-top: 120px
+}
+.card{
+    width: 325px;
+    border-radius: 10px;
+    background-color: rgb(255, 254, 252);
+    overflow: hidden;
+    box-shadow:0px 2px 4px ;
+}
+.card img{
+    width: 100%;
+    height: 334px;
+    object-fit: cover;
+}
+.card-content{
+    padding: 20px;
+}
+.card-content h3{
+    font-size: 22px;
+    margin-bottom: 32px;
+}
+.card-content p{
+    font-size: 16px;
+    margin-top: 32px;
+    margin-bottom: 32px;
+}
+.card-button{
+    height: 40px;
+    width: 124px;
+    border-radius: 20px;
+    outline-color: #79747E;
+    outline-width: 1dp;
+    padding: 10px 24px 10px 24px;
+    background-color: #ffffff;
+    color: #6750A4;    
+}
+.view-button1{
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    position: absolute;
+    right: 50%;
+    bottom: 5%;
+}
+
+/* second-card-section */
+
+.card-headline2{
+    display: flex;
+    justify-content: center;
+    margin-top: 120px;
+}
+.card-container2{
+    display: flex;
+    justify-content: center;
+    flex-wrap:wrap ;
+    gap: 25px;
+    margin-top: 72px;
+}
+.card2{
+    width: 325px;
+    border-radius: 10px;
+    background-color: rgb(255, 254, 252);
+    overflow: hidden;
+    box-shadow:0px 2px 4px ;
+}
+.card2 img{
+    height: 306px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.card-content2 h3{
+    font-size: 22px;
+    margin-top: 16px;
+    margin-bottom: 32px;
+    margin-left: 16px;
+    margin-right: 16px;
+}
+.card-content2 p{
+    font-size: 16px;
+    margin-top: 32px;
+    margin-bottom: 32px;
+    margin-left: 16px;
+}
+.card-button2{
+    height: 40px;
+    width: 124px;
+    border-radius: 20px;
+    outline-color: #79747E;
+    outline-width: 1dp;
+    padding: 10px 24px 10px 24px;
+    background-color: #ffffff;
+    color: #6750A4;
+    margin-bottom: 16px;
+    margin-left: 16px;
+}
+
+.view-button2{
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+/* testimonials */
+
+.testimonials{
+    background-color: #d1cdd6;
+    height: 600px;
+    position: relative;
+    margin-top: 40px;
+}
+.testimonial-headline{
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 120px;
+    left: 45%;
+    bottom: 72px;
+}
+.three-testimonials{
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    position: absolute;
+    top: 264px;
+    left: 230px;
+}
+.testimonial-container{
+    width: 330px;
+    background-color: rgb(255, 254, 252);
+    overflow: hidden;    
+}
+.p1{
+    margin-left: 16px;
+    margin-right: 16px;
+    margin-top: 65px;
+    margin-bottom: 32px;
+    font-size: 14px;
+}
+.testimonial-container h4{
+    margin-left: 16px;
+    margin-top: 32px; 
+}
+.p2{
+    margin-left: 16px;
+    margin-right: 16px;
+    margin-top: 0px;
+    margin-bottom: 15px;
+    font-size: 14px;
+}
+.photo1{
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    margin-left: 90px;
+    position: absolute;
+    top: -30%;
+}
+.view-button3{
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    position: absolute;
+    top: 530px;
+    bottom: 40px;
+    left: 48%;
+
+}
+/* footer */
+.footer{
+    display: flex;
+    margin-top: 120px;
+    justify-content: space-around;
+}
+.footer-heading-footer{
+    display: flex;
+    flex-direction: column;
+    margin-bottom:120px ;
+}
+.footer-heading-footer>h2{
+    font-size: 22px;
+    font-weight: 500;
+    margin-bottom: 16px;
+}
+.footer-heading-footer>a{
+    text-decoration: none;
+    color: #161617;
+    padding-top:10px ;
+    font-size: 16px;
+}
+.fa{
+    color: black;
+    margin-right: 8px;
+}
+.dwnld{
+    font-size: 22px;
+    font-weight: 400;
+    margin-left: 880px;
+    margin-bottom: 5px;
+    margin-top: -150px;
+}
+.last-section>img{
+    margin-left: 58%;
+    width: 250px;
+    margin-top: 2px;
+}
+.copyright{
+    background-color: rgb(184, 180, 180); 
+    height: 104px;
+    margin-top: 120px;
+    position: relative;
+}
+.copyright p{
+    position: absolute;
+    justify-content: center;
+    top: 40px;
+    left: 35%;
+}
+
